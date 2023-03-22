@@ -1,0 +1,72 @@
+{
+  "name": "Kuka KR-10",
+  "links": [
+    {
+      "name": "base",
+      "theta": 0,
+      "d": 0,
+      "a": 0,
+      "alpha": 3.14,
+      "virtual": true
+    },
+    {
+      "name": "joint-1",
+      "theta": 0,
+      "d": -475,
+      "a": 25,
+      "alpha": 1.57,
+      "virtual": false
+    },
+    {
+      "name": "joint-2",
+      "theta": 0,
+      "d": 0,
+      "a": 315,
+      "alpha": 0,
+      "virtual": false
+    },
+    {
+      "name": "joint-3",
+      "theta": -1.57,
+      "d": 0,
+      "a": 35,
+      "alpha": -1.57,
+      "virtual": false
+    },
+    {
+      "name": "joint-4",
+      "theta": 0,
+      "d": 420,
+      "a": 0,
+      "alpha": 1.57,
+      "virtual": false
+    },
+    {
+      "name": "joint-5",
+      "theta": 0,
+      "d": 0,
+      "a": 0,
+      "alpha": -1.57,
+      "virtual": false
+    },
+    {
+      "name": "joint-6",
+      "theta": 0,
+      "d": 80,
+      "a": 0,
+      "alpha": 0,
+      "virtual": false
+    },
+    {
+      "name": "gripper",
+      "theta": 0,
+      "d": 340,
+      "a": 0,
+      "alpha": 0,
+      "virtual": true
+    }
+  ],
+  "jointInitValues":[
+    74.57, -135.69, -23.8, -46.52, -39.39, 39.72
+  ]
+}
