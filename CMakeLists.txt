@@ -36,9 +36,13 @@ add_executable(
         include/misc/glHelper.h
 )
 
+
 TARGET_LINK_LIBRARIES(
         dh_vis
         ${CMAKE_THREAD_LIBS_INIT}
         ${JSONCPP_LIBRARIES}
-        ${OPENGL_LIBRARIES} ${GLUT_LIBRARY}
+        ${OPENGL_LIBRARIES}
+        ${GLUT_LIBRARY}
+        -lGL
+        -lglut
 )
